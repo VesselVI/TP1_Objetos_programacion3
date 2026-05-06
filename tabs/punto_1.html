@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/punto_1.css">
-    <script src="/js/punto_1.js" type="module"></script>
+    <script src="/js/punto_1.js" type="module" defer></script>
     <title>Trabajo Práctico N1</title>
 </head>
 
@@ -64,7 +64,7 @@
         </div>
     </header>
 
-    -----------------------------------------------------------------------------------------------
+    <!-- ----------------------------------------------------------------------------------------------- -->
     <!-- 
     <div class="card">
         <h5 class="card-header">Buscar coche</h5>
@@ -86,20 +86,27 @@
         </div>
     </div> -->
     <form>
-        <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Categorias
+            </button>
+            <label>seleccione una categoria</label>
+
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#" data-category="marca">Marca</a>
+                <a class="dropdown-item" href="#" data-category="modelo">Modelo</a>
+                <a class="dropdown-item" href="#" data-category="año">año</a>
+                <a class="dropdown-item" href="#" data-category="color">Color</a>
+                <a class="dropdown-item" href="#" data-category="estado">Estado</a>
+                <a class="dropdown-item" href="#" data-category="precio">Precio</a>
+            </div>
         </div>
-        <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+        <input type="text" id="searchInput" class="form-control mt-3" placeholder="Escribi para buscar...">
+        <div class="carInfo">
+
         </div>
-        <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Buscar</button>
     </form>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

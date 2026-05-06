@@ -72,3 +72,14 @@ header {
         align-items: flex-start;
     }
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form .carInnerInfo {
+    padding: 50px;
+    font-weight: bold;
+
+}
