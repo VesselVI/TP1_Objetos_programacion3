@@ -32,3 +32,10 @@ export const coche = [
         precio: 16000
     }
 ];
+
+
+export function calcEdad(year) {
+    const anio = new Date().getFullYear();
+    const edadAuto = anio - year;
+    return edadAuto;
+}

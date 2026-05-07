@@ -1,0 +1,58 @@
+.containerTitle {
+    display: flex;
+    justify-content: space-between;
+    background-color: cornsilk;
+    margin-right: 4px;
+}
+
+.containerNavBar {
+    display: flex;
+    justify-content: space-between;
+    background-color: cornsilk;
+    margin-right: 4px;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: cornsilk;
+    margin-right: 4px;
+    border-bottom: solid;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+
+    .containerNavBar {
+        display: flex;
+        justify-content: end;
+    }
+
+
+    .title {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form .carInnerInfo {
+    padding: 50px;
+    font-weight: bold;
+
+}
