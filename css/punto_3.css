@@ -1,0 +1,79 @@
+.containerTitle {
+    display: flex;
+    justify-content: space-between;
+    background-color: cornsilk;
+    margin-right: 4px;
+}
+
+.containerNavBar {
+    display: flex;
+    justify-content: space-between;
+    background-color: cornsilk;
+    margin-right: 4px;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: cornsilk;
+    margin-right: 4px;
+    border-bottom: solid;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+
+    .containerNavBar {
+        display: flex;
+        justify-content: end;
+    }
+
+
+    .title {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.priceDiv {
+    display: flex;
+    font-size: 26px;
+    font-weight: 900;
+    gap: 10px;
+}
+
+form label {
+    font-weight: 600;
+}
+
+form {
+    margin: 20px;
+}
+
+#discountInput {
+    width: 232px;
+}
+
+#nameInput,
+#priceInput,
+#descriptionInput,
+#brandInput {
+    width: 300px;
+}
+
+.productHTML {
+    border-bottom-style: solid;
+    border-top-style: solid;
+    padding: 10px;
+}

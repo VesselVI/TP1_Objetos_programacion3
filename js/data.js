@@ -5,7 +5,8 @@ export const coche = [
         año: 2022,
         color: "Blanco",
         estado: "Nuevo",
-        precio: 18500
+        precio: 18500,
+        imagen: "https://images.unsplash.com/photo-1638618164682-12b986ec2a75?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         marca: "Ford",
@@ -13,7 +14,8 @@ export const coche = [
         año: 2018,
         color: "Gris",
         estado: "Usado",
-        precio: 9500
+        precio: 9500,
+        imagen: "https://images.unsplash.com/photo-1687575635336-57e2b0931d3e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         marca: "Chevrolet",
@@ -21,7 +23,8 @@ export const coche = [
         año: 2020,
         color: "Negro",
         estado: "Usado",
-        precio: 14000
+        precio: 14000,
+        imagen: "https://images.unsplash.com/photo-1622268697621-54243bd1e9f4?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         marca: "Volkswagen",
@@ -29,7 +32,8 @@ export const coche = [
         año: 2019,
         color: "Rojo",
         estado: "Usado",
-        precio: 16000
+        precio: 16000,
+        imagen: "https://images.unsplash.com/photo-1704039146873-1ee9afed8d95?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
 ];
 
@@ -39,3 +43,12 @@ export function calcEdad(year) {
     const edadAuto = anio - year;
     return edadAuto;
 }
+
+
+
+// 3) – Crear una aplicación web para mostrar datos de un producto ingresado x un cliente deberán crear un objeto llamado Producto 
+// que contenga información sobre ese producto como Nombre, Precio, Descripción, Marca y porcDescuento luego crea un método llamado
+//  CalcularDescuento en el objeto que calcule y devuelva el precio con el descuento aplicado.Al finalizar muestra todos los datos 
+//  a través el documento.
+
+export const productsStock = [];

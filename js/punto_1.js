@@ -1,4 +1,5 @@
 import { coche } from "./data.js";
+import { calcEdad } from "./data.js";
 
 function searchAnyCategory(category, input) {
     return coche.filter(coches =>
@@ -34,17 +35,21 @@ function showCar(coche) {
     }
 
     carContainer.innerHTML = coche.map(car => `
-        <div class="carInnerInfo">
-        <h3>Marca: ${car.marca}</h2>
-        <h3>Modelo: ${car.modelo}</h2>
-        <ul>
-            <br>
-            <li>año: ${car.año}</li>
-            <li>Color: ${car.color}</li>
-            <li>Precio: $${car.precio}</li>
-        </ul>
-        </div>
-    `).join("");
+            <div class="carInnerInfo">
+            <h3>Marca: ${car.marca}</h2>
+            <h3>Modelo: ${car.modelo}</h2>
+            <img src="${car.imagen}"
+                alt="${car.modelo}"
+                style= "width: 200px">
+            <ul>
+                <br>
+                <li>año: ${car.año}</li>
+                <li>Color: ${car.color}</li>
+                <li>Precio: $${car.precio}</li>
+                <li>Edad del coche: ${calcEdad(car.año)} años</li>
+            </ul>
+            </div>
+        `).join("");
 
 
 }

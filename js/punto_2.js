@@ -38,6 +38,9 @@ function showCar(coche) {
         <div class="carInnerInfo">
         <h3>Marca: ${car.marca}</h2>
         <h3>Modelo: ${car.modelo}</h2>
+        <img src="${car.imagen}"
+            alt="${car.modelo}"
+            style= "width: 200px">
         <ul>
             <br>
             <li>año: ${car.año}</li>
