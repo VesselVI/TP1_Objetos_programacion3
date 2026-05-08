@@ -52,3 +52,5 @@ export function calcEdad(year) {
 //  a través el documento.
 
 export const productsStock = [];
+
+export const employeeQuantity = [];

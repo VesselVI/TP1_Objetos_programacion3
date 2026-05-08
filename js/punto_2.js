@@ -35,19 +35,19 @@ function showCar(coche) {
     }
 
     carContainer.innerHTML = coche.map(car => `
-        <div class="carInnerInfo">
-        <h3>Marca: ${car.marca}</h2>
-        <h3>Modelo: ${car.modelo}</h2>
-        <img src="${car.imagen}"
-            alt="${car.modelo}"
-            style= "width: 200px">
-        <ul>
-            <br>
-            <li>año: ${car.año}</li>
-            <li>Color: ${car.color}</li>
-            <li>Precio: $${car.precio}</li>
-            <li>Edad del coche: ${calcEdad(car.año)} años</li>
-        </ul>
+        <div class="col mb-4">
+ 
+            <div class="card">
+                <img src="${car.imagen}" class="img-fluid card-img-top" alt="car image">
+                <div class="card-body">
+                    <h5 class="card-title">Marca: ${car.marca}</h5>
+                    <h5>Modelo: ${car.modelo}</h5>  
+                    <p class="card-text">Color: ${car.color}</p>
+                    <p class="card-text">Precio: ${car.precio}</p>
+                    <p class="card-text">Antiguedad${calcEdad(car.año)}</p>
+                    <p class="card-text"><small class="text-muted">Año: ${car.año}</small></p>
+                </div>  
+            </div>
         </div>
     `).join("");
 

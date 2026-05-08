@@ -59,18 +59,15 @@ function showProduct() {
 form.addEventListener("submit", (e) => {
     e.preventDefault();
 
-    if (
-        !nameInput.value.trim() || !priceInput.value.trim() ||
+    if (!nameInput.value.trim() || !priceInput.value.trim() ||
         !descriptionInput.value.trim() || !brandInput.value.trim() ||
-        !discAmount.value.trim()
-    ) {
+        !discAmount.value.trim()) {
+
         alert("Complete todos los campos");
         return;
     }
-    if (
-        isNaN(priceInput.value) ||
-        isNaN(discAmount.value)
-    ) {
+    if (isNaN(priceInput.value) ||
+        isNaN(discAmount.value)) {
         alert("Precio y descuento deben ser números");
         return;
     }

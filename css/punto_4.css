@@ -46,19 +46,29 @@ header {
     }
 }
 
+#nameInput,
+#lastNameInput,
+#DNI_Input,
+#adressInputm,
+#addressInput,
+#salaryInput {
+    width: 300px;
+}
+
 form {
-    display: flex;
-    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(180, 160, 117);
 }
 
-.carInfo .card-img-top {
-
-    width: 100%;
-    height: 450px;
-    object-fit: cover;
-}
-
-.carInfo {
+.cardInfo {
+    background-color: rgb(114, 107, 95);
     padding: 50px;
 
 }
+
+.card {}
+
+/* body {
+    padding: 20px;
+    background-color: rgb(223, 190, 139);
+} */
