@@ -36,11 +36,10 @@ function showEmployee() {
         <div class="col border-dark mb-3">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Nombre del empleado: ${e.name} ${e.lastName}</h5>
+                    <h5 class="card-title ">Nombre del empleado: ${e.name} ${e.lastName}</h5>
                     <p class="card-text">DNI: ${e.dni}</p>
                     <p class="card-text">Direccion: ${e.address}</p>
                     <p class="card-text">Sueldo: $${e.salary.toFixed(2)}</p>
-                    <p class="card-text"><small class="text-muted">Sueldo Anual: $${e.calcYearlySalary().toFixed(2)}</small></p>
                 </div>
             </div>
         </div>

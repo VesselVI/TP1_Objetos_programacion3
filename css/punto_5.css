@@ -49,25 +49,19 @@ header {
 #nameInput,
 #lastNameInput,
 #DNI_Input,
-#adressInputm,
 #addressInput,
-#salaryInput {
-    width: 300px;
+#salaryHsInput,
+#hoursPerWeekInput {
+    width: 450px;
 }
 
 form {
-    padding: 20px;
-    background-color: rgb(180, 160, 117);
+    padding: 30px;
+    background-color: rgba(123, 120, 113, 0.804);
+
 }
 
 .cardInfo {
-    background-color: rgb(114, 107, 95);
-    padding: 50px;
-
+    padding: 30px;
+    background-color: rgb(65, 70, 113);
 }
-
-
-/* body {
-    padding: 20px;
-    background-color: rgb(223, 190, 139);
-} */

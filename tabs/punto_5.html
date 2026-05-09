@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/punto_3.css">
-    <script src="/js/punto_3.js" type="module" defer></script>
-    <title>Trabajo Práctico N1 - Punto 3</title>
+    <link rel="stylesheet" href="/css/punto_5.css">
+    <script src="/js/punto_5.js" type="module" defer></script>
+    <title>Trabajo Práctico N1 - Punto 5</title>
 </head>
 
 <body>
@@ -39,13 +39,13 @@
                                 <a class="nav-link" href="/tabs/punto_2.html">2_</a>
                             </li>
 
-                            <li class="nav-item active">
+                            <li class="nav-item">
                                 <a class="nav-link" href="/tabs/punto_3.html">3_</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/tabs/punto_4.html">4_</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item active">
                                 <a class="nav-link" href="/tabs/punto_5.html">5_</a>
                             </li>
                             <li class="nav-item">
@@ -68,42 +68,40 @@
     <form>
         <div class="form-group">
             <label for="nameInput">Nombre</label>
-            <input type="text" class="form-control" id="nameInput" placeholder="Escriba el nombre del producto..."
+            <input type="text" class="form-control" id="nameInput" placeholder="Escriba el nombre del empleado..."
                 required>
         </div>
         <div class="form-group">
-            <label for="priceInput">Precio</label>
-            <input type="text" class="form-control" id="priceInput" placeholder="Escriba el precio del producto..."
-                required>
+            <label for="lastNameInput">Apellido</label>
+            <input type="text" class="form-control" id="lastNameInput" placeholder="Escriba el apellido..." required>
         </div>
         <div class="form-group">
-            <label for="descriptionInput">Descripcion</label>
-            <input type="text" class="form-control" id="descriptionInput" placeholder="Escriba una descripcion..."
-                required>
+            <label for="DNI_Input">DNI</label>
+            <input type="text" class="form-control" id="DNI_Input" placeholder="Escriba el DNI..." required>
         </div>
         <div class="form-group">
-            <label for="brandInput">Marca</label>
-            <input type="text" class="form-control" id="brandInput" placeholder="Escriba el nombre de la marca..."
-                required>
+            <label for="addressInput">Direccion</label>
+            <input type="text" class="form-control" id="addressInput" placeholder="Escriba su direccion..." required>
         </div>
         <div class="form-group">
-            <label for="discountInput">Descuento</label>
+            <label for="salaryHsInput">Salario por hora</label>
             <div class="priceDiv">
-                <input type="text" class="form-control" id="discountInput" placeholder="Coloque un descuento sin %"
+                <input type="text" class="form-control" id="salaryHsInput" placeholder="Coloque su salario por hora..."
                     required>
-                <p> %</p>
             </div>
         </div>
-        <button type="submit" class="btn btn-primary">Almacenar Producto</button>
-    </form>
-    <div class="productInfo">
-        <div class="card-deck">
-
-
+        <div class="form-group">
+            <label for="hoursPerWeekInput">Horas semanales</label>
+            <div class="priceDiv">
+                <input type="text" class="form-control" id="hoursPerWeekInput"
+                    placeholder="Coloque la cantidad de horas semanales que trabaja..." required>
+            </div>
         </div>
+        <button type="submit" class="btn btn-dark">Guardar empleado y calcular</button>
+    </form>
+    <div class="row row-cols-1 row-cols-md-3 cardInfo">
 
     </div>
-
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"

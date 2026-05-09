@@ -44,8 +44,8 @@ function showCar(coche) {
                     <h5>Modelo: ${car.modelo}</h5>  
                     <p class="card-text">Color: ${car.color}</p>
                     <p class="card-text">Precio: ${car.precio}</p>
-                    <p class="card-text">Antiguedad${calcEdad(car.año)}</p>
-                    <p class="card-text"><small class="text-muted">Año: ${car.año}</small></p>
+                    <p class="card-text">Antiguedad: ${calcEdad(car.año)} años</p>
+                    <p class="card-text"><small class="text-muted">Año: ${car.año}</small></p>g
                 </div>  
             </div>
         </div>

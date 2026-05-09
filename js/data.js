@@ -46,11 +46,9 @@ export function calcEdad(year) {
 
 
 
-// 3) – Crear una aplicación web para mostrar datos de un producto ingresado x un cliente deberán crear un objeto llamado Producto 
-// que contenga información sobre ese producto como Nombre, Precio, Descripción, Marca y porcDescuento luego crea un método llamado
-//  CalcularDescuento en el objeto que calcule y devuelva el precio con el descuento aplicado.Al finalizar muestra todos los datos 
-//  a través el documento.
 
 export const productsStock = [];
 
 export const employeeQuantity = [];
+
+export const employeeList = [];
