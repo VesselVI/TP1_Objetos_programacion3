@@ -52,3 +52,5 @@ export const productsStock = [];
 export const employeeQuantity = [];
 
 export const employeeList = [];
+
+export const librosTotales = [];
