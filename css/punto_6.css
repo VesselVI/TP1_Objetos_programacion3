@@ -64,3 +64,19 @@ form {
 #yearPublishedInput {
     width: 400px;
 }
+
+.container-fluid {
+    background-color: rgb(87, 64, 35);
+}
+
+form {
+    background-color: gray;
+}
+
+body {
+    background-color: gray;
+}
+
+.showBtn {
+    margin-bottom: 20px;
+}

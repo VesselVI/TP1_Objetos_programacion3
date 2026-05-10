@@ -44,9 +44,6 @@ export function calcEdad(year) {
     return edadAuto;
 }
 
-
-
-
 export const productsStock = [];
 
 export const employeeQuantity = [];
@@ -54,3 +51,61 @@ export const employeeQuantity = [];
 export const employeeList = [];
 
 export const librosTotales = [];
+
+export const japanCities = [
+
+    {
+        name: "Tokyo",
+        population: "14.18 millones",
+        area: "2,194 km²",
+        imageUrl: "https://images.unsplash.com/photo-1513407030348-c983a97b98d8?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        altitude: "40 m",
+        weather: "Templado húmedo subtropical"
+    },
+
+    {
+        name: "Kyoto",
+        population: "1.46 millones",
+        area: "827.8 km²",
+        imageUrl: "https://images.unsplash.com/photo-1578469645742-46cae010e5d4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        altitude: "50 m",
+        weather: "Templado húmedo"
+    },
+
+    {
+        name: "Osaka",
+        population: "2.75 millones",
+        area: "225 km²",
+        imageUrl: "https://plus.unsplash.com/premium_photo-1724593825200-39731dcdacf8?q=80&w=1025&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        altitude: "15 m",
+        weather: "Subtropical húmedo"
+    },
+
+    {
+        name: "Sapporo",
+        population: "1.97 millones",
+        area: "1,121 km²",
+        imageUrl: "https://images.unsplash.com/photo-1619338360476-37195f14909e?q=80&w=1175&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        altitude: "29 m",
+        weather: "Continental húmedo"
+    },
+
+    {
+        name: "Hiroshima",
+        population: "1.19 millones",
+        area: "906.7 km²",
+        imageUrl: "https://plus.unsplash.com/premium_photo-1661963745503-8b3a86b8c2b1?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        altitude: "4 m",
+        weather: "Subtropical húmedo"
+    },
+
+    {
+        name: "Nagasaki",
+        population: "407 mil",
+        area: "405.6 km²",
+        imageUrl: "https://images.unsplash.com/photo-1646657508506-615eb18f863e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        altitude: "35 m",
+        weather: "Templado húmedo"
+    }
+
+];

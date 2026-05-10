@@ -65,34 +65,37 @@
         </div>
     </header>
     <div class="titleDiv">
-        <h1>Sistema de Gestion de Libreria</h1>
+        <h1 class="p-2 m-0" style="background-color: rgb(232, 191, 121);">Sistema de Gestion de Libreria</h1>
     </div>
     <form>
         <div class="form-group">
             <label for="bookNameInput">Nombre del Libro:</label>
-            <input type="text" class="form-control" id="bookNameInput" placeholder="Escriba el nombre del empleado..."
+            <input type="text" class="form-control" id="bookNameInput" placeholder="Escriba el nombre del libro..."
                 required>
         </div>
         <div class="form-group">
             <label for="authorInput">Autor:</label>
-            <input type="text" class="form-control" id="authorInput" placeholder="Escriba el apellido..." required>
+            <input type="text" class="form-control" id="authorInput" placeholder="Escriba el nombre del autor..."
+                required>
         </div>
         <div class="form-group">
             <label for="genreInput">Genero:</label>
-            <input type="text" class="form-control" id="genreInput" placeholder="Escriba el DNI..." required>
+            <input type="text" class="form-control" id="genreInput" placeholder="Escriba el genero..." required>
         </div>
         <div class="form-group">
             <label for="yearPublishedInput">Año de publicacion:</label>
-            <input type="text" class="form-control" id="yearPublishedInput" placeholder="Escriba su direccion..."
+            <input type="text" class="form-control" id="yearPublishedInput" placeholder="Escriba año de publicacion..."
                 required>
         </div>
 
         <button type="submit" class="btn d-block mb-2 btn-dark">Guardar Libro</button>
-        <button type="submit" class="btn d-block btn-dark">Listar Libros</button>
+        <button type="button" class="btn d-block btn-dark showBtn">Listar Libros</button>
 
     </form>
-    <div class="row row-cols-1 row-cols-md-3 cardInfo">
+    <div class="container-fluid px-4 mt-4">
+        <div class="row row-cols-1 row-cols-md-3 cardInfo">
 
+        </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
