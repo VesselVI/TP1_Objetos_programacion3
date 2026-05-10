@@ -109,3 +109,44 @@ export const japanCities = [
     }
 
 ];
+
+export const users = [
+
+    {
+        userName: "ignacio",
+        password: "1234",
+        creationDate: "2026-05-10"
+    },
+
+    {
+        userName: "admin",
+        password: "admin123",
+        creationDate: "2026-05-11"
+    }
+
+];
+
+export const contacts = [
+
+    {
+        fullName: "Juan Perez",
+        phone: "3815551234",
+        address: "San Miguel de Tucuman",
+        email: "juan@gmail.com"
+    },
+
+    {
+        fullName: "Maria Gomez",
+        phone: "3814448888",
+        address: "Yerba Buena",
+        email: "maria@gmail.com"
+    },
+
+    {
+        fullName: "Carlos Lopez",
+        phone: "3817779999",
+        address: "Tafi Viejo",
+        email: "carlos@gmail.com"
+    }
+
+];

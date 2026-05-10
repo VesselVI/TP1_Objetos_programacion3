@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/punto_7.css">
-    <script src="/js/punto_7.js" type="module" defer></script>
-    <title>Trabajo Práctico N1 - Punto 7</title>
+    <link rel="stylesheet" href="/css/punto_8.css">
+    <script src="/js/punto_8_agenda.js" type="module" defer></script>
+    <title>Trabajo Práctico N1 - Punto 6</title>
 </head>
 
 <body>
@@ -51,10 +51,10 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="/tabs/punto_6.html">6_</a>
                             </li>
-                            <li class="nav-item active">
+                            <li class="nav-item">
                                 <a class="nav-link" href="/tabs/punto_7.html">7_</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item active">
                                 <a class="nav-link" href="/tabs/punto_8.html">8_</a>
                             </li>
                         </ul>
@@ -65,24 +65,62 @@
         </div>
     </header>
     <div class="titleDiv">
-        <h1 class="p-3 m-0 text-white titleh1" style=" background-color: rgb(231,34,34);">Buscador de
-            ciudades
-            de Japon</h1>
+
+        <h1 class="p-3 m-0 text-white titleh1" style="background-color: rgb(40,167,69);"> Agenda Telefonica </h1>
+
     </div>
+
     <form class="d-flex flex-column align-items-center">
-        <label for="cityInput"></label>
-        <input type="text" id="cityInput" class="form-control mt-3 w-50"
-            placeholder="Escribi el nombre de una ciudad...">
-        <div class="carInfo">
 
-        </div>
-        <button type="submit" class="btn btn-secondary mt-4 px-5">Buscar</button>
+        <label for="nameInput"></label>
+
+        <input type="text" id="nameInput" class="form-control mt-3 w-50" placeholder="Ingrese nombre y apellido...">
+
+        <label for="phoneInput"></label>
+
+        <input type="text" id="phoneInput" class="form-control mt-3 w-50" placeholder="Ingrese telefono...">
+
+        <label for="addressInput"></label>
+
+        <input type="text" id="addressInput" class="form-control mt-3 w-50" placeholder="Ingrese direccion...">
+
+        <label for="emailInput"></label>
+
+        <input type="email" id="emailInput" class="form-control mt-3 w-50" placeholder="Ingrese email...">
+
+        <button type="submit" class="btn btn-success mt-4 px-5">
+
+            Guardar Contacto
+
+        </button>
+
     </form>
-    <div class="container-fluid px-4 mt-4">
-        <div class="row row-cols-1 row-cols-md-3 cardInfo">
 
-        </div>
+    <div class="container-fluid px-4 mt-4">
+
+        <table class="table table-striped table-bordered">
+
+            <thead class="thead-dark">
+
+                <tr>
+
+                    <th>Nombre</th>
+                    <th>Telefono</th>
+                    <th>Direccion</th>
+                    <th>Email</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody class="tableBody">
+
+            </tbody>
+
+        </table>
+
     </div>
+
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -93,7 +131,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-
 </body>
 
 </html>

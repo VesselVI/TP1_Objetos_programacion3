@@ -30,6 +30,6 @@ Crear 2 objetos uno que contenga los Usuarios y otro con los Contactos
 Usuarios -> Atributos: nombreUsuario, contraseña, fechaCreacion
 Contactos -> Atributos: nomyApe, teléfono, dirección, email
 Deberá mostrar los datos de la agenda en una tabla 
-El usuario deberá ir ingresado esos datos e ir mostrando en la tabla  
+El usuario deberá ir ingresado esos datos e ir mostrando en la tabla    
 
 127.0.0.1
